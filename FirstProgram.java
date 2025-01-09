@@ -1,6 +1,11 @@
 public class FirstProgram {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("saman");
+        int age = 18;
+        if(age < 18){
+        System.out.println("you are not eligible for age please apply after some time");
+        }
+        else {
+            System.out.println("you are eligible!! Enjoy");
+        }
     }
 }
