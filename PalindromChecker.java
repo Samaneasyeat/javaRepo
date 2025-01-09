@@ -1,4 +1,16 @@
-//write a program to show if the given string is palindrome or not
+// write a program to show if the given string is palindrome or not ..
+//these are the steps for this question
+// Initialize:
+// Create an empty string reversed to store the reversed version of the input string.
+// Reverse the String:
+// Loop through the input string from the last character to the first.
+// For each character, append it to the reversed string.
+// Compare Strings:
+// Compare the original string and the reversed string.
+// If they are equal, the string is a palindrome.
+// Otherwise, it is not a palindrome.
+// Output:
+// Print whether the input string is a palindrome or not.
 import java.util.Scanner;
 
 public class PalindromChecker {
